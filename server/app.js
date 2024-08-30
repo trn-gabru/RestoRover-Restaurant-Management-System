@@ -25,7 +25,7 @@ app.use(bodyParser.json());
 app.use(express.json());
 app.use("/home", express.static("uploads"));
 app.use(cookieParser());
-app.use(cors({ origin: "https://66d1b52b07a0756fd4c801fd--jocular-panda-b0197a.netlify.app" }));
+app.use(cors({ origin: "https://66d1b52b07a0756fd4c801fd--jocular-panda-b0197a.netlify.app", "https://jocular-panda-b0197a.netlify.app" }));
 // app.use(cors({ credentials: true, origin: process.env.CLIENT_URL }));
 app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Origin", process.env.CLIENT_URL);
