@@ -26,9 +26,9 @@ app.use(express.json());
 app.use("/home", express.static("uploads"));
 app.use(cookieParser());
 app.use(cors({
-  origin: [
+  origin: 
     "https://jocular-panda-b0197a.netlify.app"
-  ]
+  
 }));
 // app.use(cors({ credentials: true, origin: process.env.CLIENT_URL }));
 app.use((req, res, next) => {
