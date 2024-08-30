@@ -25,7 +25,11 @@ app.use(bodyParser.json());
 app.use(express.json());
 app.use("/home", express.static("uploads"));
 app.use(cookieParser());
-app.use(cors());
+const corsOptions = {
+  origin: 'https://jocular-panda-b0197a.netlify.app',
+  credentials: true // This is important to allow credentials
+};
+app.use(cors(corsOptions));
 // app.use(cors({ credentials: true, origin: process.env.CLIENT_URL }));
 app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Origin", process.env.CLIENT_URL);
