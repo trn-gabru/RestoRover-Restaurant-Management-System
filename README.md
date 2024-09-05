@@ -1,18 +1,13 @@
-<div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://ik.imagekit.io/y4cguk6dk/plataserv.png?updatedAt=1682949861978" alt="Logo" width="128" height="128">
-  </a>
 
-  <h1 align="center">RestoRover - Restaurant Management System</h3>
-</div>
+# RestoRover - Restaurant Management System
 
-<!-- ABOUT THE PROJECT -->
+
+## [🔸 Click To See Live Demo 🔸](https://jocular-panda-b0197a.netlify.app/) 
+ 
+
 
 ## About RestoRover
-
 This is a comprehensive restaurant management system that includes a point-of-sale (POS) system, speed of service tracking, financial reporting, inventory management, and a PAR (Periodic Automatic Replenishment) builder. This project is built using React, Express, MongoDB, Node.js, Chakra UI, React-Chartjs-2, Imagekit, and Axios.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
@@ -21,8 +16,6 @@ This is a comprehensive restaurant management system that includes a point-of-sa
 - [![Express][Express]][Express-url]
 - [![MongoDB][MongoDB]][MongoDB-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## Features
 
 - **POS system**: Users can create orders, and track order statuses.
@@ -30,8 +23,14 @@ This is a comprehensive restaurant management system that includes a point-of-sa
 - **Speed of service tracking**: The system records the time it takes to serve orders and provides reports on average service times.
 
 - **Financial reporting**: The system generates reports and charts on revenue, expenses, and wastes, with the ability to filter by date range.
+- **And Many More**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+##
+
+## Small Preview :
+
+
 
 [MongoDB]: https://img.shields.io/badge/MongoDB-126149?style=for-the-badge&logo=mongodb&logoColor=white
 [MongoDB-url]: https://refine.dev/
@@ -43,3 +42,33 @@ This is a comprehensive restaurant management system that includes a point-of-sa
 [Express-url]: https://appwrite.io/
 [Chakra]: https://img.shields.io/badge/Chakra-67CACB?style=for-the-badge&logo=chakraui&logoColor=white
 [Chakra-url]: https://chakra-ui.com/
+
+
+
+- **Home**
+The home screen Looks simple and shows the purpose of the application.
+
+
+![Home Screen](https://github.com/trn-gabru/RestoRover-Restaurant-Management-System/blob/main/Images/Screenshot%202024-08-31%20174812.jpg?raw=true)
+
+##
+
+- **Signup**  
+The User can signup as a ***Cashier*** or ***Manager***. He can also signup as Both the  Cashier and Manager.
+
+Same goes For Login
+  
+
+![Signup Screen](https://github.com/trn-gabru/RestoRover-Restaurant-Management-System/blob/main/Images/Screenshot%202024-08-31%20175504.jpg?raw=true)
+
+##
+
+- **Cashier Screen**  
+When the User signup as a ***Cashier*** he can take the orders from the customer. The ordered item and the paymnet info is stored in the database for the sales analysis. Also you can track the time taken for one order to complete in orders tab.
+  
+
+![Signup Screen](https://github.com/trn-gabru/RestoRover-Restaurant-Management-System/blob/main/Images/Screenshot%202024-08-31%20181020.jpg?raw=true)
+
+
+##
+
